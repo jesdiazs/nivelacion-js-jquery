@@ -11,7 +11,11 @@ $(document).ready( function(){
 * marcado el atributo "highlighted" como TRUE
 */
 function renderHighlightedRecipes(recipesArray) {
-	console.log('Recipes: ', recipesArray);
+	for(i=0; i< recipesArray; i++){
+		if('highlighted'== true){
+			console.log('Recipes: ', recipesArray);
+		}
+	}
 }
 
 /*
@@ -42,4 +46,20 @@ function renderActivity(recipe) {
 	
 }
 
+/*Etapa 1: funcion para ocultar iconos */
 
+
+$(document).ready(function(){
+	$('#ocultaItem').hide(function(){
+		$('span').onload();
+	});
+});  
+
+/* Etapa 2: funcion para pintar noticia*/
+
+$(document).ready(function printNews(){
+  	$('#addNews').html('"NUEVAS RECETAS"');
+	
+});
+
+/*Etapa 3: recorrido de arreglo*/

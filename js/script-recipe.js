@@ -1,0 +1,3 @@
+function ocultaIconos(){
+	$('#ocultaItem').hide();
+}
