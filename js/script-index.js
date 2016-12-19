@@ -16,6 +16,7 @@ function renderHighlightedRecipes(recipesArray) {
 			console.log('Recipes: ', recipesArray);
 		}
 	}
+	
 }
 
 /*
@@ -62,4 +63,4 @@ $(document).ready(function printNews(){
 	
 });
 
-/*Etapa 3: recorrido de arreglo*/
+/*Etapa 3:* verificar funcion renderHighlightedRecipes que esta arriba /
